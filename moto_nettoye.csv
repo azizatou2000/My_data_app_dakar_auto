@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 marque,annee,prix,adress,proprietaire,kilometrage
 Honda,2010,450,"Guédiawaye,Dakar",Par Babacar Diallo,160.0
 Honda,2007,1500000,"Parcelles Assainies,Dakar",Par AMADOU NDIAYE,11000.0
@@ -19,3 +20,26 @@ Honda,2018,1350000,"Point-E,Dakar",Par Mehdi  Rouita,32000.0
 Yamaha,2006,300000,"Sicap Liberté,Dakar",Par Mohamed Thiam,50000.0
 Yamaha,2020,3900000,"Ouakam,Dakar",Par Cheikh  Mbacké,14000.0
 Yamaha,2020,1200000,"Yoff,Dakar",Par Mohamed SALL,10000.0
+=======
+marque,annee,prix,adress,proprietaire,kilometrage
+Honda,2010,450,"Guédiawaye,Dakar",Par Babacar Diallo,160.0
+Honda,2007,1500000,"Parcelles Assainies,Dakar",Par AMADOU NDIAYE,11000.0
+SYM,2023,620000,"Rufisque,Dakar",Par Lamine  Ndao,1200.0
+Yamaha,2023,4300000,"VDN,Dakar",Par Rose  DIOMPY,1.0
+Yamaha,2025,800000,"Sicap Baobab,Dakar",Par Rose  DIOMPY,250.0
+Honda,2021,810000,"Cambérène,Dakar",Par Rose  DIOMPY,350.0
+KTM,2025,220000,"VDN,Dakar",Par Malick konte,6000.0
+Yamaha,2025,950000,"Sicap Sacré Coeur,Dakar",Par Lune Mané,1.0
+Yamaha,2017,1800000,"Saint-Louis,Saint-Louis",Par Abdou Latif Sy,39000.0
+Haouju,2024,580000,"Médina,Dakar",Par Franck Dieudonné DJIKOLDINGAM,2777.0
+Suzuki,2023,600000,"Mermoz Sacré-Coeur,Dakar",Par Nd Wn,200.0
+Yamaha,2017,2150000,"Ouest Foire,Dakar",Par Birahim  Ndiaye,50.0
+Honda,1996,1200000,"Médina,Dakar",Par Arthur THOMAS,63750.0
+Piaggio,2022,400000,"Mbao,Dakar",Par Babacar  Gueye,
+Honda,2018,3900000,"Plateau,Dakar",Par HONDA AFRICA TWIN CRF1000,12000.0
+Honda,2003,1100000,"Almadies,Dakar",Par Hamza Mb,20000.0
+Honda,2018,1350000,"Point-E,Dakar",Par Mehdi  Rouita,32000.0
+Yamaha,2006,300000,"Sicap Liberté,Dakar",Par Mohamed Thiam,50000.0
+Yamaha,2020,3900000,"Ouakam,Dakar",Par Cheikh  Mbacké,14000.0
+Yamaha,2020,1200000,"Yoff,Dakar",Par Mohamed SALL,10000.0
+>>>>>>> 7d92aa7 (update)
