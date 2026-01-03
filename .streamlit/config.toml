@@ -1,0 +1,12 @@
+[theme]
+# Couleur principale (curseurs, boutons sélectionnés, focus)
+primaryColor = "#1cb771ff" 
+
+# Couleur de fond de la page
+backgroundColor = "#0E1117"
+
+# Couleur du texte
+textColor = "#FAFAFA"
+
+# Couleur de fond de la barre latérale (plus claire ou plus sombre que le fond principal)
+secondaryBackgroundColor = "#1E2129"
