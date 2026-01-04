@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 streamlit
 pandas
 beautifulsoup4
 requests
 matplotlib
 seaborn
-=======
-streamlit
-pandas
-beautifulsoup4
-requests
-matplotlib
-seaborn
->>>>>>> 7d92aa7 (update)
 numpy
