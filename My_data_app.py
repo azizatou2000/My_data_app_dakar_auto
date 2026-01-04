@@ -116,7 +116,7 @@ if choix == "Scraper avec BeautifulSoup":
         with st.spinner("Scraping en cours..."):
             df = scraping_generique(url_dict[type_vehicule], nbr_page, type_vehicule)
             st.success(f"Scraping terminé pour {type_vehicule} !")
-            st.dataframe(df.head())
+            st.dataframe(df)
             # Sauvegarde automatique
             df.to_csv(f"{type_vehicule}_nettoye.csv", index=False)
             st.write(f"Données sauvegardées dans {type_vehicule}_nettoye.csv")
