@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-marque,annee,prix,adress,proprietaire,kilometrage,boite_vitesse,carburant
-Lexus,2020,38000000,"Ouest Foire,Dakar",Par Ulrich MIÉRÉ,55493,Automatique,Essence
-Mercedes,2018,15000000,"Ouest Foire,Dakar",Par Ulrich MIÉRÉ,66485,Automatique,Essence
-Kia,2018,5500000,"Mbao,Dakar",Par cheikh ahmed tidiane toure,89220,Automatique,Essence
-Maserati,2019,21000000,"Sicap Sacré Coeur,Dakar",Par Mansour  Diagne,11000,Automatique,Diesel
-Hyundai,2017,9000000,"Mermoz Sacré-Coeur,Dakar",Par Mme Diop,92000,Automatique,Essence
-Hyundai,2014,3850000,"Médina,Dakar",Par Rose  DIOMPY,121745,Automatique,Essence
-Kia,2016,3950000,"Médina,Dakar",Par Rose  DIOMPY,1,Automatique,Essence
-Hyundai,2012,3200000,"Sicap Foire,Dakar",Par Rose  DIOMPY,1,Automatique,Essence
-Bmw,2017,11500000,"Sicap Dieuppeul,Dakar",Par Rose  DIOMPY,117394,Automatique,Essence
-Kia,2011,3200000,"Dieuppeul Derklé,Dakar",Par Rose  DIOMPY,1,Automatique,Essence
-Hyundai,2015,6300000,"Cambérène,Dakar",Par Rose  DIOMPY,1,Automatique,Essence
-Renault,2017,3500000,"Parcelles Assainies,Dakar",Par ELHADJI sow,120,Manuelle,Essence
-Toyota,2017,300000,"Golf,Dakar",Par Rose  DIOMPY,1,Manuelle,Diesel
-Mitsubishi,2017,8000000,"Gueule-Tapée, Fass, Colobane,Dakar",Par Rose  DIOMPY,1,Automatique,Essence
-Renault,2017,7200000,"Sicap Dieuppeul,Dakar",Par Rose  DIOMPY,1,Automatique,Diesel
-Peugeot,2018,14500000,"Sud Foire,Dakar",Par Rose  DIOMPY,1,Automatique,Diesel
-Renault,2021,6,"Nord Foire,Dakar",Par GABYAUTO GAYE,50,Manuelle,Essence
-Bentley,2020,18500000,"Dieuppeul Derklé,Dakar",Par Rose  DIOMPY,34000,Automatique,Essence
-Hyundai,2016,5450000,"Ouest Foire,Dakar",Par Rose  DIOMPY,112333,Automatique,Essence
-Citroen,2017,5700000,"Sicap Dieuppeul,Dakar",Par Rose  DIOMPY,120000,Automatique,Diesel
-=======
 marque,annee,prix,adress,proprietaire,kilometrage,boite_vitesse,carburant
 Ford,2014,3800000,"Yeumbeul Nord,Dakar",Par Cheikh  Mbacké,155000.0,Automatique,Essence
 Opel,2007,2100000,"Nord Foire,Dakar",Par Assane  Ndao,171107.0,Automatique,Essence
@@ -222,4 +199,83 @@ Kia,2017,5800000,"Ouest Foire,Dakar",Par Amadou  Dieye,80000.0,Automatique,Essen
 Hyundai,2020,4500000,"Ouest Foire,Dakar",Par Amadou  Dieye,80000.0,Automatique,Essence
 Kia,2016,11500000,"Ouest Foire,Dakar",Par Amadou  Dieye,102000.0,Automatique,Diesel
 Peugeot,2022,8000000,"Dieuppeul Derklé,Dakar",Par Malick  Ba,42300.0,Manuelle,Diesel
->>>>>>> 7d92aa7 (update)
+Mazda,2016,8900000,"Gueule-Tapée, Fass, Colobane,Dakar",Par joan-yves Darys  Anguilet,92000.0,Automatique,Essence
+Hyundai,2013,5000000,"Gueule-Tapée, Fass, Colobane,Dakar",Par joan-yves Darys  Anguilet,79000.0,Automatique,Essence
+Jeep,2015,7200000,"Gueule-Tapée, Fass, Colobane,Dakar",Par joan-yves Darys  Anguilet,92000.0,Automatique,Essence
+Hyundai,2016,9500000,"Liberté 6,Dakar",Par joan-yves Darys  Anguilet,160000.0,Automatique,Essence
+Jeep,2021,20000000,"VDN,Dakar",Par SBV sn,20000.0,Automatique,Essence
+Bmw,2013,9000000,"VDN,Dakar",Par SBV sn,1.0,Automatique,Essence
+Hyundai,2013,3950000,"Hann Maristes,Dakar",Par Sidy Yakhya Camara,140000.0,Automatique,Essence
+Toyota,2022,350000,"Mermoz Sacré-Coeur,Dakar",Par Cheikh B Mbaye,11111.0,Automatique,Essence
+Hyundai,2013,7500000,"Ouakam,Dakar",Par SYLLA BUSINESS  GROUP,167000.0,Manuelle,Diesel
+Kia,2013,4000000,"Ouakam,Dakar",Par SYLLA BUSINESS  GROUP,167000.0,Automatique,Diesel
+Peugeot,2015,4000000,"Thiakar,Diourbel",Par MOURAD ENNAJY,99999.0,Manuelle,Diesel
+Peugeot,2020,6000000,"Thiare Ndialgui,Fatick",Par MOURAD ENNAJY,150000.0,Automatique,Diesel
+Ford,2016,9000000,"Biscuiterie,Dakar",Par MALICK  Ndiaye,120000.0,Automatique,Essence
+Hyundai,2013,3700000,"Liberté 6,Dakar",Par Moustapha  Cissé,100000.0,Automatique,Essence
+Chevrolet,2013,4000000,"Liberté 6,Dakar",Par Moustapha  Cissé,80000.0,Automatique,Essence
+Hyundai,2017,8300000,"Liberté 6,Dakar",Par Moustapha  Cissé,80000.0,Automatique,Essence
+Ford,2017,10800000,"Liberté 6,Dakar",Par Moustapha  Cissé,80000.0,Automatique,Essence
+Ford,2017,6500000,"Ouakam,Dakar",Par JN D,105800.0,Automatique,Essence
+Ford,2013,8900000,"Ouakam,Dakar",Par JN D,116000.0,Automatique,Essence
+Nissan,2016,8700000,"Ouakam,Dakar",Par JN D,146000.0,Automatique,Essence
+Chrysler,2015,3800000,"Keur Massar,Dakar",Par DEMBA FAYE,110000.0,Automatique,Essence
+Nissan,2010,2500000,"Yeumbeul Nord,Dakar",Par Cheikh  Mbacké,132000.0,Manuelle,Essence
+Toyota,2013,3900000,"Guédiawaye,Dakar",Par Vendeur .,1.0,Automatique,Essence
+Toyota,2015,7000000,"Fann,Dakar",Par Papa GAYE,239816.0,Manuelle,Diesel
+Mitsubishi,2009,6500000,"Fann,Dakar",Par Papa GAYE,348000.0,Manuelle,Diesel
+Ford,2008,120000,"Wakhinane, Nimzatt,Dakar",Par Ibrahima  SALL,1.0,Manuelle,Diesel
+Peugeot,2008,4000000,"Patte d'oie,Dakar",Par Souleymane  Diop,192000.0,Manuelle,Diesel
+Peugeot,2020,12300000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,77000.0,Automatique,Diesel
+Chevrolet,2014,2,"Liberté 2,Dakar",Par Sanya Bouraima,196000.0,Manuelle,Essence
+Hyundai,2020,11900000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,61000.0,Automatique,Essence
+Toyota,2019,12950000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,68000.0,Automatique,Essence
+Kia,2020,7900000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,71000.0,Automatique,Essence
+Toyota,2008,4900000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,139000.0,Manuelle,Diesel
+Kia,2017,8000000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,92000.0,Automatique,Essence
+Renault,2019,7500000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,79000.0,Manuelle,Essence
+Hyundai,2015,5700000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,88000.0,Automatique,Essence
+Toyota,2018,9000000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,67099.0,Automatique,Essence
+Citroen,2013,4700000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,100000.0,Manuelle,Diesel
+Peugeot,2019,4800000,"Gueule-Tapée, Fass, Colobane,Dakar",Par SOURANG  AUTO,116000.0,Manuelle,Diesel
+Chevrolet,2010,1900000,"Amitié,Dakar",Par Abdoul SARR,161000.0,Manuelle,Essence
+Jeep,2008,3000000,"Almadies,Dakar",Par Dia  Youssef,170000.0,Manuelle,Essence
+Mercedes,2019,13000000,"VDN,Dakar",Par thierno balde,55000.0,Automatique,Essence
+Hyundai,2015,4000000,"Thiakar,Diourbel",Par MOURAD ENNAJY,85000.0,Automatique,Diesel
+Peugeot,2015,4000000,"Diofior,Fatick",Par MOURAD ENNAJY,125700.0,Manuelle,Diesel
+Hyundai,2017,10000000,"Mermoz Sacré-Coeur,Dakar",Par Alioune Alassane Diop,90000.0,Automatique,Essence
+Kia,2015,9000000,"Mermoz Sacré-Coeur,Dakar",Par Alioune Alassane Diop,110000.0,Automatique,Essence
+Hyundai,2014,3500000,"Sicap Foire,Dakar",Par Ibrahim  AMAR,220000.0,Manuelle,Essence
+Jeep,1997,1000000,"Sindian,Ziguinchor",Par ALAIN FONTENELLE,100000.0,Manuelle,Diesel
+Kia,2018,22500000,"Point-E,Dakar",Par pierre diandi,27000.0,Manuelle,Diesel
+Chrysler,2016,5000000,"Hlm,Dakar",Par Adama  Sagna,150000.0,Automatique,Essence
+Toyota,2006,4950000,"Point-E,Dakar",Par pierre diandi,281000.0,Manuelle,Diesel
+Peugeot,2016,7000000,"Ndiarème Limamoulaye,Dakar",Par MITCHEL BOISSY,1.0,Automatique,Diesel
+Land,2017,28000000,"VDN,Dakar",Par Lassana THIAM,1.0,Automatique,Diesel
+Toyota,2013,13500000,"Guédiawaye,Dakar",Par Serigne  Dieng,106000.0,Manuelle,Diesel
+Toyota,2020,16000000,"VDN,Dakar",Par Elite Innov  Group,54000.0,Automatique,Essence
+Chevrolet,2017,7250000,"Parcelles Assainies,Dakar",Par Elite Innov  Group,107000.0,Automatique,Essence
+Renault,2015,4500000,"Parcelles Assainies,Dakar",Par Elite Innov  Group,100000.0,Manuelle,Essence
+Peugeot,2005,2200000,"Cambérène,Dakar",Par tapha  diop,160000.0,Manuelle,Essence
+Hyundai,2016,6300000,"Almadies,Dakar",Par Rassoul Services,118000.0,Automatique,Essence
+Ford,2016,10900000,"Almadies,Dakar",Par Rassoul Services,100000.0,Automatique,Essence
+Hyundai,2017,6300000,"Almadies,Dakar",Par Rassoul Services,100000.0,Automatique,Essence
+Peugeot,2022,13500000,"Almadies,Dakar",Par Rassoul Services,80000.0,Automatique,Essence
+Land,2014,8500000,"Almadies,Dakar",Par Rassoul Services,116000.0,Automatique,Essence
+Mitsubishi,2017,9200000,"Almadies,Dakar",Par Rassoul Services,100000.0,Automatique,Essence
+Ford,2017,12000000,"Saly Portudal,Thiès",Par Mady Dieme,89984.0,Automatique,Essence
+Bmw,2017,18500000,"Almadies,Dakar",Par Rassoul Services,78000.0,Automatique,Essence
+Mercedes,2017,16000000,"Dieuppeul Derklé,Dakar",Par Mouhamed  Seck,100000.0,Automatique,Essence
+Renault,2003,13000000,"Biscuiterie,Dakar",Par ettore chiminello,700000.0,Manuelle,Diesel
+Ford,2017,9000000,"Dieuppeul Derklé,Dakar",Par Mouhamed  Seck,,Essence,
+Kia,2008,2500000,"Yène,Dakar",Par Oumar LY,351000.0,Manuelle,Diesel
+Kia,2023,27500000,"Almadies,Dakar",Par Rassoul Services,25000.0,Automatique,Essence
+Bmw,2014,9200000,"Almadies,Dakar",Par Rassoul Services,100000.0,Automatique,Essence
+Chevrolet,2010,1900000,"Mermoz Sacré-Coeur,Dakar",Par Abdoul SARR,131000.0,Manuelle,Essence
+Ford,2016,2500000,"Grand-Dakar,Dakar",Par IBRAHIMA SOW,100000.0,Automatique,Essence
+Audi,2020,18000000,"Grand-Dakar,Dakar",Par Abou Bakr  BADJI,39000.0,Automatique,Essence
+Jeep,2016,12500000,"Dieuppeul Derklé,Dakar",Par Mouhamed  Seck,142000.0,Automatique,Essence
+Bmw,2016,15000000,"Dieuppeul Derklé,Dakar",Par Mouhamed  Seck,50000.0,Automatique,Essence
+Citroen,2014,4000000,"Liberté 6 extension,Dakar",Par Sidy Yakhya Camara,155000.0,Automatique,Essence
+Ford,2016,6500000,"Parcelles Assainies,Dakar",Par Mouska Mouska,140000.0,Automatique,Essence
+Renault,2016,7500000,"Thiès,Thiès",Par MAX  MOTORS,99856.0,Automatique,Diesel
