@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bs
 
 def scraping_generique(url_base, nbr_page, type_vehicule="voiture"):
     """
-    Scraping multi-page générique et nettoyage des données.
+    Scraping sur plusieurs pages génériques et nettoyage des données.
     """
     df = pd.DataFrame()
     

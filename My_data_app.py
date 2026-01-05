@@ -9,7 +9,7 @@ import seaborn as sns
 import numpy as np
 import streamlit as st
 import streamlit.components.v1 as components
-from scraping_auto import scraping_generique  # import depuis ton fichier .py
+from scraping_auto import scraping_generique 
 
 
 st.markdown("""
@@ -46,7 +46,7 @@ st.markdown("""
 @st.cache_data
 
 def conversion_df(df):
-    # IMPORTANT : Mettre la conversion en cache pour éviter de relancer le calcul à chaque rafraîchissement
+    # Mettre la conversion en cache pour éviter de relancer le calcul à chaque rafraîchissement
     return df.to_csv().encode('utf-8')
 
 def load(dataframe, title, key, key1) :    
@@ -65,17 +65,17 @@ def load(dataframe, title, key, key1) :
     }
     /* 2. État au survol (HOVER) */
     div.stButton > button:hover {
-        background-color: #1cb771ff; /* Change en vert au survol */
+        background-color: #1cb771ff; 
         color: #ffffff;
-        cursor: pointer;           /* Change le curseur en main */
-        transform: translateY(-2px); /* Petit effet de soulèvement */
-        box-shadow: 0px 4px 10px rgba(0,0,0,0.2); /* Ajoute une ombre */
+        cursor: pointer;           
+        transform: translateY(-2px); 
+        box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
     }
           
     </style>
     """, unsafe_allow_html=True)
     
-    # Créer 3 colonnes avec celle du milieu plus large
+    # Création de 3 colonnes avec celle du milieu plus large
     col1, col2, col3 = st.columns([1, 5, 1])
     
     with col2:
@@ -121,7 +121,7 @@ if choix == "Scraper avec BeautifulSoup":
             df.to_csv(f"{type_vehicule}_nettoye.csv", index=False)
             st.write(f"Données sauvegardées dans {type_vehicule}_nettoye.csv")
 
-            #  utilisation directe de load()
+            # utilisation directe de load()
             load(
                 dataframe=df,
                 title=f"Afficher les {type_vehicule}s",
@@ -154,14 +154,14 @@ elif choix == "Charger données (Web Scraper)":
 elif choix == "visualiser des données":
     st.markdown("<h2 style='text-align: center; color: #4A90E2;'>Tableau de Bord des données</h2>", unsafe_allow_html=True)
     
-    # ÉTAPE 1 : Récupérer le choix de l'utilisateur
+    # Récupération du choix de l'utilisateur
     type_dash = st.selectbox("Sélectionnez la catégorie ", ["voiture", "moto", "location"])
     
     # Configuration du style sombre
     plt.style.use('dark_background')
     
     try:
-        # ÉTAPE 2 : Charger le fichier correspondant au choix (grâce aux f-strings)
+        # Chargement du fichier correspondant au choix 
         # Si l'utilisateur choisit "moto", il chargera "moto_nettoye.csv"
         df = pd.read_csv(f"{type_dash}_nettoye.csv")
         
