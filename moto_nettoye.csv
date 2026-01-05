@@ -1,45 +1,361 @@
-<<<<<<< HEAD
 marque,annee,prix,adress,proprietaire,kilometrage
-Honda,2010,450,"Guédiawaye,Dakar",Par Babacar Diallo,160.0
-Honda,2007,1500000,"Parcelles Assainies,Dakar",Par AMADOU NDIAYE,11000.0
-SYM,2023,620000,"Rufisque,Dakar",Par Lamine  Ndao,1200.0
-Yamaha,2023,4300000,"VDN,Dakar",Par Rose  DIOMPY,1.0
-Yamaha,2025,800000,"Sicap Baobab,Dakar",Par Rose  DIOMPY,250.0
-Honda,2021,810000,"Cambérène,Dakar",Par Rose  DIOMPY,350.0
-KTM,2025,220000,"VDN,Dakar",Par Malick konte,6000.0
-Yamaha,2025,950000,"Sicap Sacré Coeur,Dakar",Par Lune Mané,1.0
-Yamaha,2017,1800000,"Saint-Louis,Saint-Louis",Par Abdou Latif Sy,39000.0
-Haouju,2024,580000,"Médina,Dakar",Par Franck Dieudonné DJIKOLDINGAM,2777.0
-Suzuki,2023,600000,"Mermoz Sacré-Coeur,Dakar",Par Nd Wn,200.0
-Yamaha,2017,2150000,"Ouest Foire,Dakar",Par Birahim  Ndiaye,50.0
-Honda,1996,1200000,"Médina,Dakar",Par Arthur THOMAS,63750.0
-Piaggio,2022,400000,"Mbao,Dakar",Par Babacar  Gueye,
-Honda,2018,3900000,"Plateau,Dakar",Par HONDA AFRICA TWIN CRF1000,12000.0
-Honda,2003,1100000,"Almadies,Dakar",Par Hamza Mb,20000.0
-Honda,2018,1350000,"Point-E,Dakar",Par Mehdi  Rouita,32000.0
-Yamaha,2006,300000,"Sicap Liberté,Dakar",Par Mohamed Thiam,50000.0
-Yamaha,2020,3900000,"Ouakam,Dakar",Par Cheikh  Mbacké,14000.0
-Yamaha,2020,1200000,"Yoff,Dakar",Par Mohamed SALL,10000.0
-=======
-marque,annee,prix,adress,proprietaire,kilometrage
-Honda,2010,450,"Guédiawaye,Dakar",Par Babacar Diallo,160.0
-Honda,2007,1500000,"Parcelles Assainies,Dakar",Par AMADOU NDIAYE,11000.0
-SYM,2023,620000,"Rufisque,Dakar",Par Lamine  Ndao,1200.0
-Yamaha,2023,4300000,"VDN,Dakar",Par Rose  DIOMPY,1.0
-Yamaha,2025,800000,"Sicap Baobab,Dakar",Par Rose  DIOMPY,250.0
-Honda,2021,810000,"Cambérène,Dakar",Par Rose  DIOMPY,350.0
-KTM,2025,220000,"VDN,Dakar",Par Malick konte,6000.0
-Yamaha,2025,950000,"Sicap Sacré Coeur,Dakar",Par Lune Mané,1.0
-Yamaha,2017,1800000,"Saint-Louis,Saint-Louis",Par Abdou Latif Sy,39000.0
-Haouju,2024,580000,"Médina,Dakar",Par Franck Dieudonné DJIKOLDINGAM,2777.0
-Suzuki,2023,600000,"Mermoz Sacré-Coeur,Dakar",Par Nd Wn,200.0
-Yamaha,2017,2150000,"Ouest Foire,Dakar",Par Birahim  Ndiaye,50.0
-Honda,1996,1200000,"Médina,Dakar",Par Arthur THOMAS,63750.0
-Piaggio,2022,400000,"Mbao,Dakar",Par Babacar  Gueye,
-Honda,2018,3900000,"Plateau,Dakar",Par HONDA AFRICA TWIN CRF1000,12000.0
-Honda,2003,1100000,"Almadies,Dakar",Par Hamza Mb,20000.0
-Honda,2018,1350000,"Point-E,Dakar",Par Mehdi  Rouita,32000.0
-Yamaha,2006,300000,"Sicap Liberté,Dakar",Par Mohamed Thiam,50000.0
-Yamaha,2020,3900000,"Ouakam,Dakar",Par Cheikh  Mbacké,14000.0
-Yamaha,2020,1200000,"Yoff,Dakar",Par Mohamed SALL,10000.0
->>>>>>> 7d92aa7 (update)
+Honda,2010,450.0,"Guédiawaye,Dakar",Par Babacar Diallo,160.0
+Honda,2007,1500000.0,"Parcelles Assainies,Dakar",Par AMADOU NDIAYE,11000.0
+SYM,2023,620000.0,"Rufisque,Dakar",Par Lamine  Ndao,1200.0
+Yamaha,2023,4300000.0,"VDN,Dakar",Par Rose  DIOMPY,1.0
+Yamaha,2025,800000.0,"Sicap Baobab,Dakar",Par Rose  DIOMPY,250.0
+Honda,2021,810000.0,"Cambérène,Dakar",Par Rose  DIOMPY,350.0
+KTM,2025,220000.0,"VDN,Dakar",Par Malick konte,6000.0
+Yamaha,2025,950000.0,"Sicap Sacré Coeur,Dakar",Par Lune Mané,1.0
+Yamaha,2017,1800000.0,"Saint-Louis,Saint-Louis",Par Abdou Latif Sy,39000.0
+Haouju,2024,580000.0,"Médina,Dakar",Par Franck Dieudonné DJIKOLDINGAM,2777.0
+Suzuki,2023,600000.0,"Mermoz Sacré-Coeur,Dakar",Par Nd Wn,200.0
+Yamaha,2017,2150000.0,"Ouest Foire,Dakar",Par Birahim  Ndiaye,50.0
+Honda,1996,1200000.0,"Médina,Dakar",Par Arthur THOMAS,63750.0
+Piaggio,2022,400000.0,"Mbao,Dakar",Par Babacar  Gueye,
+Honda,2018,3900000.0,"Plateau,Dakar",Par HONDA AFRICA TWIN CRF1000,12000.0
+Honda,2003,1100000.0,"Almadies,Dakar",Par Hamza Mb,20000.0
+Honda,2018,1350000.0,"Point-E,Dakar",Par Mehdi  Rouita,32000.0
+Yamaha,2006,300000.0,"Sicap Liberté,Dakar",Par Mohamed Thiam,50000.0
+Yamaha,2020,3900000.0,"Ouakam,Dakar",Par Cheikh  Mbacké,14000.0
+Yamaha,2020,1200000.0,"Yoff,Dakar",Par Mohamed SALL,10000.0
+Honda,2014,1150000.0,"Grand-Dakar,Dakar",Par Mohamed  Memed,55000.0
+Piaggio,2012,490000.0,"Parcelles Assainies,Dakar",Par Djibril  Ba,1.0
+Aprilia,2018,300000.0,"Grand-Dakar,Dakar",Par Ibrahim  Sarr,150.0
+BMW,2019,4900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,20000.0
+BMW,2021,2500000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,17000.0
+Ducati,2024,7900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,500.0
+BMW,2023,4900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,7000.0
+BMW,2023,6900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,2000.0
+BMW,2022,5500000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,17000.0
+BMW,2020,3500000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,4000.0
+Ducati,2017,2500000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,13000.0
+BMW,2023,4900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,9000.0
+Honda,2023,3900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,14000.0
+BMW,2023,5900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,3000.0
+BMW,2020,5900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,20000.0
+BMW,2020,5500000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,17000.0
+BMW,2023,5900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,500.0
+BMW,2021,2500000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,17000.0
+BMW,2023,5900000.0,"Sicap Liberté,Dakar",Par DS Bikers  Coffee,3000.0
+Beverly,2016,1600000.0,"Hann Bel-Air,Dakar",Par Abdallah Sarr,52917.0
+Honda,2016,375000.0,"Sicap Liberté,Dakar",Par Tony  Massaly,15000.0
+Honda,2023,1900000.0,"Plateau,Dakar",Par Moise Moise,14000.0
+Honda,2019,650000.0,"Mbao,Dakar",Par Cheikh Seye,1.0
+KTM,2021,350000.0,"Point-E,Dakar",Par pape diop,1000.0
+KTM,2015,1400000.0,"Guédiawaye,Dakar",Par Ousi G,1.0
+Yamaha,2012,2350000.0,"VDN,Dakar",Par Cheikh Tidiane Ndiaye,101000.0
+Yamaha,2012,2300000.0,"VDN,Dakar",Par Cheikh Tidiane Ndiaye,98000.0
+Yamaha,2012,2350000.0,"VDN,Dakar",Par Cheikh Tidiane Ndiaye,98000.0
+Piaggio,2020,320000.0,"Hann Maristes,Dakar",Par doul ba,2533.0
+Peugeot,2022,350000.0,"Scat Urbam,Dakar",Par ABDOULAYE  SIDIBE,1000.0
+Kymco,2020,400000.0,"Sipres,Dakar",Par Ahmed Sow,390.0
+Kymco,2017,450000.0,"Hann Bel-Air,Dakar",Par Mouhamed Niang,25000.0
+Piaggio,2011,400000.0,"Ouest Foire,Dakar",Par Fallou Gueye,250.0
+Piaggio,2009,550000.0,"Kaolack,Kaolack",Par Abdoulaye  WELE,51122.0
+Kymco,2021,1800000.0,"Mamelles,Dakar",Par MAME CHEIKH,20000.0
+KTM,2013,1850000.0,"Thiaroye,Dakar",Par Christian  Faye,21500.0
+KTM,2023,350000.0,"Point-E,Dakar",Par Cheikh Toure,10000.0
+Kymco,2021,380000.0,"Hann Maristes,Dakar",Par Max2roues Diaw,56586.0
+Kymco,2019,150.0,"Keur Massar,Dakar",Par Boubacar  Seydi,150.0
+Triumph,2000,1600000.0,"Sicap Sacré Coeur,Dakar",Par Jean philipp Coly,64000.0
+Suzuki,1994,1200000.0,"Sicap Sacré Coeur,Dakar",Par Jean philipp Coly,56500.0
+BMW,2015,3500000.0,"Keur Massar,Dakar",Par Babacar Dramé,29590.0
+Peugeot,2019,750000.0,"Biscuiterie,Dakar",Par Abdoul  Diop,6000.0
+Yamaha,2006,700000.0,"Sicap Liberté,Dakar",Par Mathieu  Sagna,78000.0
+Suzuki,2021,1300000.0,"Nord Foire,Dakar",Par LodiaMiff  Deals,63000.0
+Kymco,2021,1900000.0,"Liberté 6 extension,Dakar",Par Al  Amine,5000.0
+Honda,2018,3600000.0,"Plateau,Dakar",Par HONDA AFRICA TWIN CRF1000,11900.0
+Yamaha,2019,2500000.0,"Golf,Dakar",Par Abdou LO,57000.0
+Yamaha,2019,2400000.0,"Golf,Dakar",Par Abdou LO,1.0
+Piaggio,2018,350000.0,"Plateau,Dakar",Par Karim  Saleh,15.0
+Honda,2016,800000.0,"Cambérène,Dakar",Par MAGUETTE THIAM,500.0
+Yamaha,2012,1800000.0,"Pikine Nord,Dakar",Par Cheikh tidiane  Diop,83000.0
+Yamaha,2018,2500000.0,"Saint-Louis,Saint-Louis",Par Abdou Latif Sy,37000.0
+Yamaha,2021,4500000.0,"Hann Maristes,Dakar",Par Mr FAYE,23000.0
+Suzuki,2022,350000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Beugue BAMBA,20000.0
+Kymco,2017,175000.0,"Guédiawaye,Dakar",Par Seydou BA,150000.0
+Kawasaki,2018,1500000.0,"Hann Maristes,Dakar",Par Mr ASSANE,1.0
+Honda,2021,3500000.0,"Parcelles Assainies,Dakar",Par Paname Export  BOUTIQUE,9000.0
+Piaggio,2018,14000000.0,"Guédiawaye,Dakar",Par Mansour GUEYE,1.0
+Yamaha,2020,600000.0,"Keur Massar,Dakar",Par Mr BERNARD,1.0
+Yamaha,2020,1600000.0,"Mamelles,Dakar",Par Amadou Xmax,11000.0
+Piaggio,2018,1500000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Abdou NDIAYE,1.0
+Yamaha,2008,1400000.0,"Guédiawaye,Dakar",Par Mansour GUEYE,1.0
+Yamaha,2018,1600000.0,"Liberté 6 extension,Dakar",Par Al  Amine,1.0
+Piaggio,2010,330000.0,"Cité Keur gorgui,Dakar",Par Mike BORIS,121000.0
+Piaggio,2017,450000.0,"Guédiawaye,Dakar",Par Sarenzo Sarenzo,300.0
+Honda,2012,550000.0,"Ouakam,Dakar",Par VPS  SERVICES,98000.0
+KTM,2021,4300000.0,"Hann Maristes,Dakar","Par Babs Motos,  Scooters",20000.0
+Yamaha,2011,390000.0,"Mermoz Sacré-Coeur,Dakar",Par Usman Diop,28000.0
+Yamaha,2021,700.0,"Mbacke,Diourbel",Par Saliou DIOUF,5000.0
+Beverly,2016,250000.0,"Yeumbeul Nord,Dakar",Par Gueye  Kilifa,23789.0
+Yamaha,2016,1000000.0,"Sicap Dieuppeul,Dakar",Par Papa lamine Diawara,42000.0
+Piaggio,2017,280000.0,"Ziguinchor,Ziguinchor",Par Zahra sarr,250.0
+Yamaha,2019,1200000.0,"Amitié,Dakar",Par mohammed MOHAMMED,1.0
+Honda,2015,480000.0,"Rufisque,Dakar",Par Company COMPANY,1111.0
+BMW,2015,3500000.0,"Cité Avion,Dakar",Par Pape Alassane  NDOYE,29000.0
+Honda,2016,700000.0,"Tivaouane Peulh,Dakar",Par Diakhite DIAKHITE,23027.0
+Piaggio,2018,600000.0,"Grand-Yoff,Dakar",Par Mame Mor  GAYE,1.0
+Aprilia,2005,650000.0,"Patte d'oie,Dakar",Par Boubacar Diaw,1500.0
+Kymco,2010,650000.0,"Thiès,Thiès",Par Sidibe SIDIBE,10000.0
+Yamaha,2021,1730000.0,"Fann,Dakar",Par Adam  Ahmed,1.0
+Honda,2021,2200000.0,"Fann,Dakar",Par Adam  Ahmed,4900.0
+KTM,2022,2850000.0,"Fann,Dakar",Par Adam  Ahmed,2000.0
+Honda,2020,550000.0,"Mermoz Sacré-Coeur,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,167.0
+Honda,2018,1100000.0,"Plateau,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,30000.0
+Honda,2018,2000000.0,"Cité Keur gorgui,Dakar",Par Fode Tra,39000.0
+Kawasaki,2021,2700000.0,"Almadies,Dakar",Par sa keur immobilier .,1.0
+Yamaha,2006,700000.0,"Zone Industrielle,Dakar",Par Myki O,1.0
+Aprilia,2005,250000.0,"Mermoz Sacré-Coeur,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,1.0
+Gilera,2021,350000.0,"Mermoz Sacré-Coeur,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,120.0
+Piaggio,2020,300000.0,"Mermoz Sacré-Coeur,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,120.0
+Piaggio,2018,1100000.0,"Almadies,Dakar",Par Cheikh Omar  sow,30000.0
+Honda,2022,1350000.0,"Fann,Dakar",Par Adam  Ahmed,1700.0
+Honda,2021,2200000.0,"Fann,Dakar",Par Adam  Ahmed,4900.0
+BMW,2022,4500000.0,"Fann,Dakar",Par Adam  Ahmed,3000.0
+Piaggio,2017,1000000.0,"Sicap Dieuppeul,Dakar",Par Mame cheikh  Ly,7000.0
+Piaggio,2016,550000.0,"Guédiawaye,Dakar",Par Seydou Ba,1.0
+Piaggio,2019,340000.0,"Plateau,Dakar",Par RAJI  ISSA,3400.0
+Piaggio,2020,500000.0,"Parcelles Assainies,Dakar",Par Fallou Thiam,1.0
+Yamaha,2022,2200000.0,"Almadies,Dakar",Par Tanor Tanor,1.0
+Beverly,2019,1650000.0,"Liberté 6,Dakar",Par Al  Amine,1.0
+Honda,2019,750000.0,"Rufisque,Dakar",Par Diouf diouf,1.0
+Honda,2021,2500000.0,"Parcelles Assainies,Dakar",Par Mouhamed  Ndiouck,16000.0
+Honda,2021,3850000.0,"Parcelles Assainies,Dakar",Par Mouhamed  Ndiouck,1.0
+Yamaha,2022,2500000.0,"Parcelles Assainies,Dakar",Par Mouhamed  Ndiouck,1.0
+Yamaha,2021,1600000.0,"Liberté 6 extension,Dakar",Par Dior Diagne,1.0
+BMW,2022,8500000.0,"Sicap Dieuppeul,Dakar",Par DS Bikers  Coffee,1.0
+Honda,2008,450000.0,"Malika,Dakar",Par Omar  Ba,
+Yamaha,2021,1730000.0,"Fann,Dakar",Par Adam  Ahmed,1.0
+Yamaha,2020,2680000.0,"Fann,Dakar",Par Adam  Ahmed,5000.0
+KTM,2022,2850000.0,"Fann,Dakar",Par Adam  Ahmed,2000.0
+Kawasaki,2018,2290000.0,"Ouakam,Dakar",Par idy Idy,27000.0
+Suzuki,2000,350000.0,"Grand-Dakar,Dakar",Par Momo 96,1.0
+Piaggio,2017,220000.0,"Sicap Dieuppeul,Dakar",Par Elhadj Elhadj,1.0
+Kymco,2017,350000.0,"Guédiawaye,Dakar",Par Sarenzo Sarenzo,1.0
+Haouju,2019,250000.0,"Fann,Dakar",Par KONTE  SERVICES,1.0
+Bajaj,2022,675000.0,"Hlm,Dakar",Par Fournisseurs de  Moto,1.0
+BMW,2018,5750000.0,"Plateau,Dakar",Par Aly  souedan,18.0
+Yamaha,2017,5500000.0,"Parcelles Assainies,Dakar",Par Abdou  SY,1.0
+Piaggio,2016,250000.0,"Ouakam,Dakar",Par Koffi jeanluc  Yao,1.0
+Piaggio,2015,70000.0,"Bargny,Dakar",Par Moustapha NDOYE,5.0
+Cagiva,2021,180000.0,"Malika,Dakar",Par Ousseynou DIEYE,1.0
+Suzuki,2019,2500000.0,"Plateau,Dakar",Par Nadjim Nadjim,24.0
+Yamaha,2012,450000.0,"Hann Maristes,Dakar",Par Dame  DIENG,160.0
+Yamaha,2015,700000.0,"Nord Foire,Dakar",Par Mouhamed Ba,1.0
+BMW,2020,6000000.0,"Plateau,Dakar",Par ali kamel  badaoui,20.0
+Honda,2019,1300000.0,"Almadies,Dakar",Par Mika  Diaw,1.0
+Honda,2012,380000.0,"Yoff,Dakar",Par Dabakh  Boye,125.0
+Honda,2019,625000.0,"Cambérène,Dakar",Par Ametho Ametho,1.0
+Yamaha,2009,290000.0,"Mermoz Sacré-Coeur,Dakar",Par Junior  drame,50.0
+Honda,2008,500000.0,"Malika,Dakar",Par Omar  Ba,40000.0
+Honda,2018,250000.0,"Mamelles,Dakar",Par Fréd  sagna,35000.0
+Yamaha,2018,2500000.0,"Almadies,Dakar",Par Oumar  Dieye,1.0
+Honda,2021,2200000.0,"Parcelles Assainies,Dakar",Par Mouhamed  Ndiouck,3700.0
+Yamaha,2020,3000000.0,"Parcelles Assainies,Dakar",Par Mouhamed  Ndiouck,6000.0
+BMW,2021,3500000.0,"Mbour,Thiès",Par Diouf  Diouf,11000.0
+Honda,2020,320000.0,"Nord Foire,Dakar",Par Dabakh  Boye,125.0
+BMW,2017,3400000.0,"Cité Avion,Dakar",Par Pape Alassane  NDOYE,27000.0
+Piaggio,2009,550000.0,"Gibraltar,Dakar",Par Bamba  Samb,
+Yamaha,2017,950000.0,"Plateau,Dakar",Par Khalid,1.0
+BMW,2019,2700000.0,"Hann Maristes,Dakar",Par NGATHIE FALL MOTO,11101.0
+Yamaha,2008,3380000.0,"Mbour,Thiès",Par Yva Ndour,15000.0
+Kymco,2007,375000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,1.0
+Kymco,2022,475000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,1.0
+Honda,1995,1400000.0,"Grand-Yoff,Dakar",Par Sakho .,77160.0
+Yamaha,2020,2500000.0,"Tivaouane Peulh,Dakar",Par Pinth  Consortium,45000.0
+Honda,2017,1500000.0,"VDN,Dakar",Par Seydi  Works,1.0
+Piaggio,2019,250000.0,"Hann Bel-Air,Dakar",Par Rene .,1.0
+Honda,2000,450000.0,"Dieuppeul Derklé,Dakar",Par Pierre  Gueret,47304.0
+Honda,2006,300000.0,"Médina,Dakar",Par Manu  Santos,1.0
+KTM,2022,400000.0,"Dieuppeul Derklé,Dakar",Par Andrade  FrÃ©dÃ©ric,580.0
+Yamaha,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2022,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2020,3500000.0,"Plateau,Dakar",Par Issa  Charbel,19000.0
+Honda,2010,600000.0,"Plateau,Dakar",Par Mehdi  Rouita,1.0
+Yamaha,2016,2750000.0,"Hann Maristes,Dakar","Par Babs Motos,  Scooters",1.0
+Piaggio,2020,1400000.0,"Liberté 6,Dakar",Par Al  Amine,1.0
+Yamaha,2006,750000.0,"Nord Foire,Dakar",Par Assane Diop,49000.0
+Yamaha,2020,1600000.0,"Liberté 6,Dakar",Par Al  Amine,1.0
+Piaggio,2020,550000.0,"Mbao,Dakar",Par Amar .,1.0
+Honda,2020,1700000.0,"Pikine Ouest,Dakar",Par modou  gueye,29150.0
+Yamaha,2012,700000.0,"Thiès,Thiès",Par Badou  ba,1.0
+BMW,2006,1850000.0,"Yoff,Dakar",Par Atoumane  diop,1.0
+Yamaha,2019,1100000.0,"Liberté 6,Dakar",Par Al  Amine,1.0
+Kawasaki,2019,1850000.0,"Almadies,Dakar",Par Luka .,1.0
+Piaggio,2008,350000.0,"Mbour,Thiès",Par Junior .,1.0
+Piaggio,2015,1200000.0,"Dieuppeul Derklé,Dakar",Par Bachir  Diallo,32000.0
+Piaggio,2019,790000.0,"Hann Maristes,Dakar","Par Babs Motos,  Scooters",
+Vespa,2009,800000.0,"Patte d'oie,Dakar",Par SENE  Fallillou,1.0
+KTM,2008,550000.0,"Ouakam,Dakar",Par Mouhamed Traore,8000.0
+Honda,2019,3800000.0,"Yoff,Dakar",Par Babacar ba  résidence,1.0
+Honda,2020,5500000.0,"Plateau,Dakar",Par Aly  souedan,1.0
+Yamaha,2010,520000.0,"Médina,Dakar",Par Souf Souf,
+Piaggio,2008,350000.0,"Plateau,Dakar",Par kevin  lima,25000.0
+Honda,2018,3250000.0,"Sicap Foire,Dakar",Par Golden  Building,1.0
+Vespa,2017,325000.0,"Pikine Nord,Dakar",Par Khadim  Athie,1.0
+BMW,2014,2700000.0,"Hann Bel-Air,Dakar",Par Iba Khaliloullah Fall,68000.0
+Yamaha,2016,1400000.0,"Ouakam,Dakar",Par Youssouf .,1.0
+Honda,2019,3800000.0,"Yoff,Dakar",Par Babacar ba  résidence,1.0
+Yamaha,2014,650000.0,"Fatick,Fatick",Par Mouhamadou lamine  Ndiaye,32000.0
+Honda,2016,850000.0,"Mermoz Sacré-Coeur,Dakar",Par Junior .,
+Yamaha,2011,700000.0,"Plateau,Dakar",Par Mehdi Tage eddine,40000.0
+Honda,2012,350000.0,"Mamelles,Dakar",Par Chika .,
+Piaggio,2016,190000.0,"Liberté 6,Dakar",Par Alioune  sy,
+Malaguty,2018,380000.0,"Point-E,Dakar",Par Babacar  Dia,
+Kymco,2008,450000.0,"Pikine Ouest,Dakar",Par Fadel Kebe,53761.0
+Piaggio,2012,450000.0,"Malika,Dakar",Par Cheikh  DienG,
+Honda,2006,1600000.0,"Dieuppeul Derklé,Dakar",Par Loic  Tchuenkam,15000.0
+Dirt,2018,500000.0,"Saly Portudal,Thiès",Par Alex  D,
+Yamaha,2021,5000000.0,"Almadies,Dakar",Par Bellet  Gael,3000.0
+Yamaha,2012,800000.0,"Mbao,Dakar",Par Assane  Fall,
+Honda,2008,680000.0,"Diamaguene Sicap Mbao,Dakar",Par Bachir Ndiaye,65437.0
+CF,2010,3500000.0,"Rufisque,Dakar",Par sarr  falilou,
+Honda,2010,380000.0,"Sicap Liberté,Dakar",Par Cheikh  Tidjane,
+Suzuki,2010,700000.0,"Mermoz Sacré-Coeur,Dakar",Par Amath boury Coundoul,180.0
+BMW,2013,2400000.0,"Hann Maristes,Dakar","Par Babs Motos,  Scooters",60000.0
+Piaggio,2018,200000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Hajar  SAADOUNI,
+Honda,2014,1200000.0,"Dalifort,Dakar",Par Prince Coumba Ndoffene  DIOUF,
+Ducati,2018,,"Hlm,Dakar",Par Black power  2 Roues,20000.0
+Honda,2018,2000000.0,"Mamelles,Dakar",Par B2ZO .,
+KTM,2020,390000.0,"Pikine Nord,Dakar",Par Doudou Fall,10000.0
+Kymco,2006,450000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Beugue BAMBA,200.0
+Keeway,2021,480000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Beugue BAMBA,2000.0
+Yamaha,2020,2000000.0,"Plateau,Dakar",Par Ghandour  Imad,23000.0
+SYM,2013,400000.0,"Grand-Yoff,Dakar",Par Mbaye .,
+Suzuki,2007,500000.0,"Keur Massar,Dakar",Par Lamina  minteh,200000.0
+Harley,2015,4000000.0,"Sicap Sacré Coeur,Dakar",Par Papa Abdoulaye  Fall,
+Suzuki,2019,1800000.0,"Hann Maristes,Dakar","Par Babs Motos,  Scooters",25000.0
+BMW,2015,3200000.0,"Hann Maristes,Dakar","Par Babs Motos,  Scooters",30000.0
+BMW,2019,3500000.0,"Sicap Foire,Dakar",Par Moustapha ..,
+Piaggio,2008,,"Hlm,Dakar",Par Black power  2 Roues,
+Yamaha,2008,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2017,,"Hlm,Dakar",Par Black power  2 Roues,
+Yamaha,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+BMW,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2020,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+BMW,2020,,"Hlm,Dakar",Par Black power  2 Roues,
+BMW,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+Honda,2021,,"Hlm,Dakar",Par Black power  2 Roues,
+Yamaha,2012,430000.0,"Gibraltar,Dakar",Par Diayalma  Ameublement,
+Piaggio,2014,650000.0,"Almadies,Dakar",Par Cheikh  Tidiane,
+Suzuki,2012,275000.0,"Yoff,Dakar",Par Ismaila  Diakhate,
+Honda,2016,750000.0,"Liberté 6,Dakar",Par Moustapha  balde,
+Piaggio,2011,190000.0,"Hlm,Dakar",Par Semou  Sene,
+Peugeot,2016,300000.0,"Ngor,Dakar",Par Tellier  Iwan,
+Honda,2019,4000000.0,"Dieuppeul Derklé,Dakar",Par DS Bikers  Coffee,
+BMW,2014,2700000.0,"Hann Bel-Air,Dakar",Par Iba Khaliloullah Fall,
+BMW,2018,4000000.0,"Parcelles Assainies,Dakar",Par Fadal  Nimzatt,
+Suzuki,2019,1500000.0,"VDN,Dakar",Par Momo .,
+Piaggio,2016,550000.0,"Grand-Yoff,Dakar",Par Mamadouba .,
+Vespa,2014,600000.0,"Point-E,Dakar",Par Mustapha ....,
+Piaggio,2005,1000000.0,"Almadies,Dakar",Par Isabel  Sandoval,
+Vespa,2015,500000.0,"Diamaguene Sicap Mbao,Dakar",Par Mouhamed Diop,
+Piaggio,2018,380000.0,"Médina,Dakar",Par Scooter ....,
+Honda,2016,,"Guédiawaye,Dakar",Par Seydina  issa fall,
+BMW,2020,6000000.0,"Dieuppeul Derklé,Dakar",Par DS Bikers  Coffee,
+BMW,2021,8000000.0,"Dieuppeul Derklé,Dakar",Par DS Bikers  Coffee,
+Suzuki,2020,750000.0,"Mboro,Thiès",Par Ibrahima  badiane,
+Honda,2012,7000000.0,"Hlm,Dakar",Par Diene  Electronics,
+Piaggio,2007,650000.0,"Parcelles Assainies,Dakar",Par Abdou  SY,
+Piaggio,2021,1100000.0,"Almadies,Dakar",Par Tijs Magagi  Hoornaert,
+Piaggio,2016,350000.0,"Amitié,Dakar",Par Tapha DIOP,
+MBK,2021,400000.0,"Médina,Dakar",Par Krishnani  kailash,
+Honda,2015,700000.0,"Fann,Dakar",Par last  of us,
+BMW,2016,90000.0,"Mermoz Sacré-Coeur,Dakar",Par Ak  NdiayeðŸ”¥âš½ï¸,
+Honda,2015,900000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Beugue BAMBA,
+Yamaha,2013,520000.0,"Gueule-Tapée, Fass, Colobane,Dakar",Par Yass ...,
+Kawasaki,2018,450000.0,"Nord Foire,Dakar",Par Barthélémy .,
+Yamaha,2012,480000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,
+Kymco,2021,450000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,
+Honda,2009,400000.0,"Sicap Sacré Coeur,Dakar",Par Assane ...,
+Honda,2021,3500000.0,"Sicap Foire,Dakar",Par Moustapha ..,
+BMW,2015,2300000.0,"Mamelles,Dakar",Par Jean-Baptiste  Andrieu,45.0
+Yamaha,2019,,"Hann Bel-Air,Dakar",Par DAABA  SERVICES,
+Peugeot,2016,160000.0,"Guédiawaye,Dakar",Par Latyr  Mbengue,
+KTM,2007,1500000.0,"Hann Bel-Air,Dakar",Par Bourgain  Christophe,
+Peugeot,2022,1550000.0,"Grand-Yoff,Dakar",Par DAABA  SERVICES,
+Yamaha,2018,2500000.0,"Médina,Dakar",Par GUEYE  ..,
+Honda,2016,600000.0,"Yoff,Dakar",Par MD ALL  SERVICES,
+Yamaha,2020,2500000.0,"Hlm,Dakar",Par Keur Rassoul  Business,
+Suzuki,2002,380000.0,"Pout,Thiès",Par Timoleon  Sarr,100000.0
+Aprilia,2010,265000.0,"Guédiawaye,Dakar",Par Seydina  issa fall,
+BMW,2018,3300000.0,"Ngor,Dakar",Par Bruno ..,23200.0
+Piaggio,2022,,"Ouakam,Dakar",Par DE WO  FENG,
+Kymco,2015,475000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,6017.0
+Kymco,2021,450000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,
+Kymco,2016,475000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,
+Yamaha,2016,480000.0,"Pikine Nord,Dakar",Par STAM COMMERCE ET SERVICES,
+BMW,2020,3000000.0,"Mbao,Dakar",Par EFASTRADE .,58.0
+BMW,2004,3000000.0,"Sicap Sacré Coeur,Dakar",Par Papa Abdoulaye  Fall,
+Aprilia,2016,375000.0,"Pikine Ouest,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,120.0
+Piaggio,2016,695000.0,"Pikine Ouest,Dakar",Par KOUWAGNE BUSINESS ENTREPRISE,
+BMW,2020,,"Point-E,Dakar",Par Black power  2 Roues,
+BMW,2020,5000000.0,"Point-E,Dakar",Par Black power  2 Roues,
+Yamaha,2017,,"Point-E,Dakar",Par Black power  2 Roues,
+Honda,2021,,"Point-E,Dakar",Par Black power  2 Roues,
+Kawasaki,2019,,"Point-E,Dakar",Par Black power  2 Roues,
+Aprilia,2017,280000.0,"Grand-Dakar,Dakar",Par Cheikh WIN,
+Yamaha,2001,1100000.0,"Grand-Dakar,Dakar",Par Alain BETAN,29134.0
+Bmw,2019,,"Grand-Dakar,Dakar",Par Bernard PEJAC,452125.0
+Piaggio,2018,270000.0,"Grand-Dakar,Dakar",Par Clément LEOND,1700.0
+Honda,0,350000.0,"Grand-Dakar,Dakar",Par Mamadou  TALL,
+Honda,0,350000.0,"Grand-Dakar,Dakar",Par Fadilou NIANG,
+Honda,2008,650000.0,"Grand-Dakar,Dakar",Par Alain Michel Guiniane NDOUR,
+Honda,0,350000.0,"Grand-Dakar,Dakar",Par MODOU DIAGNE,
+Kymco,0,400000.0,"Grand-Dakar,Dakar",Par Mandaw WADE,
+Piaggio,2004,400000.0,"Grand-Dakar,Dakar",Par Serigne CHEIKH,
+Honda,0,300000.0,"Grand-Dakar,Dakar",Par ABDOULAYE  DIALLO,
+Kawasaki,2017,2500000.0,"Grand-Dakar,Dakar",Par Pape CAMARA,
+Gilera,2017,230000.0,"Grand-Dakar,Dakar",Par El hadji  NIASS,
+Aprilia,2004,275000.0,"Grand-Dakar,Dakar",Par Abdoulaye GAYE,
+Aprilia,0,280000.0,"Grand-Dakar,Dakar",Par Abdoulaye GAYE,
+Honda,2005,800000.0,"Grand-Dakar,Dakar",Par Pape CAMARA,
+KTM,2007,1450000.0,"Grand-Dakar,Dakar",Par Jerry CAILLE,21500.0
+KTM,2007,1450000.0,"Grand-Dakar,Dakar",Par Jerry CAILLE,21500.0
+KTM,2007,1450000.0,"Grand-Dakar,Dakar",Par Jerry CAILLE,21500.0
+Yamaha,2001,1300000.0,"Grand-Dakar,Dakar",Par Marie MARIE,30000.0
+Aprilia,0,220000.0,"Grand-Dakar,Dakar",Par Diadie KANE,
+Aprilia,0,220000.0,"Grand-Dakar,Dakar",Par Diadie KANE,
+Yamaha,2010,140000.0,"Grand-Dakar,Dakar",Par El hadj BA,50.0
+Piaggio,0,1250000.0,"Grand-Dakar,Dakar",Par Ousmane SARRE,52000.0
+Ducati,2011,1350000.0,"Grand-Dakar,Dakar",Par Alou ALOU,20387.0
+KTM,2006,900000.0,"Grand-Dakar,Dakar",Par Antoine GOUZEE,
+Yamaha,2010,450000.0,"Grand-Dakar,Dakar",Par Antoine GOUZEE,38000.0
+KTM,2006,900000.0,"Grand-Dakar,Dakar",Par Antoine GOUZEE,
+Piaggio,0,350000.0,"Grand-Dakar,Dakar",Par Jov PLATIN,200.0
+Kawasaki,2013,3000000.0,"Grand-Dakar,Dakar",Par Mouhamadou GUEYE,
+Yamaha,1990,900000.0,"Grand-Dakar,Dakar",Par Paolino LUCA,78350.0
+Piaggio,2007,450000.0,"Grand-Dakar,Dakar",Par Bamba DEME,57700.0
+Suzuki,2008,1500000.0,"Grand-Dakar,Dakar",Par Talibé FOFANA,20000.0
+Honda,2015,1200000.0,"Grand-Dakar,Dakar",Par Alain ROGGEMAN,14600.0
+Daelim,2014,300000.0,"Grand-Dakar,Dakar",Par Ame BA,
+Yamaha,1990,900000.0,"Grand-Dakar,Dakar",Par Ruzzarin DAMIANO,76510.0
+Suzuki,2018,975000.0,"Grand-Dakar,Dakar",Par Cheikh WADE,950.0
+Piaggio,2016,175000.0,"Grand-Dakar,Dakar",Par Ghali SEFRIOUI,
+Yamaha,2015,500000.0,"Grand-Dakar,Dakar",Par Médoune  NIANG,180.0
+Yamaha,2017,1800000.0,"Grand-Dakar,Dakar",Par Brahim Bâ,5000.0
+Piaggio,2017,270000.0,"Grand-Dakar,Dakar",Par Mouhamed Mansour CISSé,
+Piaggio,2010,200000.0,"Grand-Dakar,Dakar",Par Mouhamed Mansour CISSé,90.0
+Piaggio,2017,270000.0,"Grand-Dakar,Dakar",Par Mouhamed Mansour CISSé,
+Honda,0,550000.0,"Grand-Dakar,Dakar",Par AMADOU LAMINE NDIAYE,37000.0
+Honda,0,550000.0,"Grand-Dakar,Dakar",Par AMADOU LAMINE NDIAYE,37000.0
+Yamaha,2010,2000000.0,"Grand-Dakar,Dakar",Par Safa CHEKKOR,
+Piaggio,0,,"Grand-Dakar,Dakar",Par Christian DESIRé,
+Peugeot,0,1000000.0,"Grand-Dakar,Dakar",Par Awa JARA,
+Honda,2010,700000.0,"Grand-Dakar,Dakar",Par Cheikh KEBE,2010.0
+Bmw,2001,1508700.0,"Grand-Dakar,Dakar",Par Serra COSIMO,35000.0
+Bmw,2009,950000.0,"Grand-Dakar,Dakar",Par Laurent ROBINEAU,5000.0
+Suzuki,0,450000.0,"Grand-Dakar,Dakar",Par Pape TALL,
+Yamaha,0,430000.0,"Grand-Dakar,Dakar",Par Pape TALL,
+Piaggio,0,400000.0,"Grand-Dakar,Dakar",Par Tonton TONS,
+Piaggio,0,400000.0,"Grand-Dakar,Dakar",Par Tonton TONS,
+Yamaha,0,380000.0,"Grand-Dakar,Dakar",Par Oumar SAMB,
+Kawasaki,0,1600000.0,"Grand-Dakar,Dakar",Par AMADOU LAMINE NDIAYE,44700.0
+Honda,0,1500000.0,"Grand-Dakar,Dakar",Par AMADOU LAMINE NDIAYE,71000.0
+Piaggio,0,160000.0,"Grand-Dakar,Dakar",Par ARU XENG,
+Yamaha,0,400000.0,"Grand-Dakar,Dakar",Par Azok SENE,
+Yamaha,0,,"Grand-Dakar,Dakar",Par Soufiane OMS,
